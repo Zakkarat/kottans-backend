@@ -1,6 +1,7 @@
 ﻿# kottans-backend
-## Linux CLI
+
 ## Git Collaboration
+## Linux CLI
 
 Had already accomplished tasks in frontend course. [Check it out!](https://github.com/Zakkarat/kottans-frontend)
 
