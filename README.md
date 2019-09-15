@@ -2,7 +2,7 @@
 ## Linux CLI, and HTTP
 ## Git Collaboration
 
-Had already accomplished tasks in frontend course. Check it out!
+Had already accomplished tasks in frontend course. [Check it out!](https://github.com/Zakkarat/kottans-frontend)
 
 ## Node-Basic
 <div style="display: flex">
