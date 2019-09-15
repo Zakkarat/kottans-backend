@@ -4,6 +4,10 @@
 
 Had already accomplished tasks in frontend course. Check it out!
 
+also providing screenshot for new Unix-Shell task
+
+<img src="https://github.com/Zakkarat/kottans-frontend/blob/master/task-unix-shell/unix.PNG" width="700px" />
+
 ## Node-Basic
 
 <img src="https://github.com/Zakkarat/kottans-frontend/blob/master/node-basic-1/node-basic.PNG" width="500px" />
