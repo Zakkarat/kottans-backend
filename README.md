@@ -30,3 +30,5 @@ The heap is enlarged via the brk() system call (implementation) to make room for
 
 The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals.
 The data segment, on the other hand, holds the contents for static variables initialized in source code. This memory area is not anonymous.
+
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/memory-managment/memory.jpg" width="800px" />
