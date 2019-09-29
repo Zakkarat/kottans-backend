@@ -35,4 +35,4 @@ The data segment, on the other hand, holds the contents for static variables ini
 
 ## TCP. UDP. Network
 
-<img src="https://github.com/Zakkarat/kottans-backend/blob/master/task-networks/networks.PNG" width="500px" />
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_networks/networks.PNG" width="500px" />
