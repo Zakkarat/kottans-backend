@@ -32,7 +32,6 @@ const checkHost = async host => {
     })
     .catch(error => {
       console.log("Invalid hostname. Use --help for more information.");
-      return 0;
     });
 };
 
@@ -40,9 +39,7 @@ const checkPorts = port => {
   let portLimits = [1, 65535];
   if (port) {
     portLimits = port.split("-").map(elem => Number(elem));
-    console.log(0 > portLimits[0])
-    if (0 < portLimits[0] || 65535 < portLimits[1] || portLimits[2]) {
-      console.log('IM HERE')
+    if (1 > portLimits[0] || 65535 < portLimits[1] || portLimits[2]) {
       throw new Error("Invalid port range. Use --help for more information.");
     }
   } else {
@@ -60,8 +57,11 @@ const checkValid = async (host, port) => {
     console.log(e);
     ports = [0];
   }
-  if ([address])
+  if([address, ...ports].every(elem => elem)) {
   return [address, ...ports];
+  } else {
+    process.exit(1);
+  }
 };
 
 const checkConnection = async ([host, minPort, maxPort]) => {
@@ -103,20 +103,13 @@ const sniff = async ({ host, port, help }) => {
     return 0;
   }
   const hostPort = await checkValid(host, port);
-  console.log(hostPort);
   const openPorts = await checkConnection(hostPort);
   if (hostPort.every(elem => elem)) {
 
   } else {
     return 0;
   }
-  process.stdout.write("\n");
-  openPorts.forEach(elem =>
-    openPorts.indexOf(elem) === openPorts.length - 1
-      ? process.stdout.write(`${elem}`)
-      : process.stdout.write(`${elem},`)
-  );
-  process.stdout.write(" ports are opened");
+  openPorts.length ? console.log(`\n${openPorts.join(', ')} ports are opened`) : console.log(`No ports opened`)
 };
 
 
