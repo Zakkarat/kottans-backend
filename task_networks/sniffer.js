@@ -40,7 +40,9 @@ const checkPorts = port => {
   let portLimits = [1, 65535];
   if (port) {
     portLimits = port.split("-").map(elem => Number(elem));
-    if (0 > portLimits[0] || 65535 < portLimits[1] || portLimits[2]) {
+    console.log(0 > portLimits[0])
+    if (0 < portLimits[0] || 65535 < portLimits[1] || portLimits[2]) {
+      console.log('IM HERE')
       throw new Error("Invalid port range. Use --help for more information.");
     }
   } else {
@@ -58,6 +60,7 @@ const checkValid = async (host, port) => {
     console.log(e);
     ports = [0];
   }
+  if ([address])
   return [address, ...ports];
 };
 
