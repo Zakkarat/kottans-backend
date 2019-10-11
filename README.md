@@ -61,3 +61,12 @@ First of all, possible it would be a man in the middle attack, when data is bein
 - Explain the main idea behind public key cryptography in few sentences.
 
 The idea behind the public key is to make sure that only specified users get data. There are two types of keys: public and private. Data can be encrypted by one of them, but must be decrypted by another. For example, if we have data encrypted by the public key, it can only be decrypted by the private key. It provides assurance, that we get data from trusted users, moreover, It makes impossible to access data for attackers.
+
+- You are creating and application for pet clinic. You need to implement the following functionality.
+
+1. add new pet: It will be kind of POST request with the appropriate parameters in a JSON file.
+2. search pet by name: It will be a GET request using query to specify the name. Example: `/search?name=<name>`.
+3. change name of an existing pet: We will use PUT, because we are updating an existing resource. In path we will provide name of needed pet and the new name in request body.
+4. add new info about pet health. It will be a POST request with a provided info in JSON in request body. However it also could be a PUT request, depends on how data is stored.
+5. assign a pet to a particular doctor in the clinic: It will be PUT request with doctor information provided in JSON file in request body.
+6. register an appointment for a pet: Surely, it will be a POST request with a provided pet info and appointment date in request body.
