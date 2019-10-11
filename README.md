@@ -36,3 +36,19 @@ The data segment, on the other hand, holds the contents for static variables ini
 ## TCP. UDP. Network
 
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_networks/networks.PNG" width="500px" />
+
+## HTTP/HTTPS
+
+```bash
+curl https://api.github.com/users/zakkarat
+```
+```bash
+curl -i https://api.github.com/users/zakkarat
+```
+```bash
+curl --user "USERNAME" https://api.github.com/gists/starred
+```
+```bash
+curl -i https://api.github.com/orgs/kottans/repos
+```
+
