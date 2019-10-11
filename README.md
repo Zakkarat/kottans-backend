@@ -51,4 +51,13 @@ curl --user "USERNAME" https://api.github.com/gists/starred
 ```bash
 curl -i https://api.github.com/orgs/kottans/repos
 ```
+```bash
+curl -u zakkarat:***** -d "{ \"title\" : \"test\" }" https://api.github.com/repos/zakkarat/kottans-backend/issues
+```
+- Name at least three possible negative consequences of not using https.
 
+First of all, possible it would be a man in the middle attack, when data is being changed to fake data somewhere in the middle of the sending process. Secondly, data can be captured and read by someone else(Not actual data receiver). Finally, without certification, the user won't know if he is connected to the actual site, so the user's data could be stolen by the attacker.
+
+- Explain the main idea behind public key cryptography in few sentences.
+
+The idea behind the public key is to make sure that only specified users get data. There are two types of keys: public and private. Data can be encrypted by one of them, but must be decrypted by another. For example, if we have data encrypted by the public key, it can only be decrypted by the private key. It provides assurance, that we get data from trusted users, moreover, It makes impossible to access data for attackers.
