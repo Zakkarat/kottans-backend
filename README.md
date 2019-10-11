@@ -37,7 +37,7 @@ The data segment, on the other hand, holds the contents for static variables ini
 
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_networks/networks.PNG" width="500px" />
 
-## HTTP/HTTPS
+## HTTP & HTTPS
 
 ```bash
 curl https://api.github.com/users/zakkarat
