@@ -70,3 +70,11 @@ The idea behind the public key is to make sure that only specified users get dat
 4. add new info about pet health. It will be a POST request with a provided info in JSON in request body. However it also could be a PUT request, depends on how data is stored.
 5. assign a pet to a particular doctor in the clinic: It will be PUT request with doctor information provided in JSON file in request body.
 6. register an appointment for a pet: Surely, it will be a POST request with a provided pet info and appointment date in request body.
+
+## Databases
+
+<div style="display: flex">
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/sql_basics/khan.PNG" width="250px" />
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/sql_basics/codeacademy.PNG" width="250px" />
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/sql_basics/udacity.PNG" width="250px" />
+</div>
