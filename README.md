@@ -82,5 +82,5 @@ The idea behind the public key is to make sure that only specified users get dat
 ## Design Patterns
 
 <div style="display: flex">
-<img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_patterns/patterns.PNG" width="300px" />
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_patterns/patterns.PNG" width="600px" />
 </div>
