@@ -78,3 +78,9 @@ The idea behind the public key is to make sure that only specified users get dat
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/sql_basics/codeacadem.PNG" width="300px" />
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/sql_basics/udacity.PNG" width="300px" />
 </div>
+
+## Design Patterns
+
+<div style="display: flex">
+<img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_patterns/patterns.PNG" width="300px" />
+</div>
