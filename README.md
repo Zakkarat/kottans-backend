@@ -84,4 +84,4 @@ The idea behind the public key is to make sure that only specified users get dat
 <div style="display: flex">
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_patterns/patterns.PNG" width="600px" />
 </div>
-About Software Architecture course, It is a really long course and I believe that It could be much shorter, but it contains a lot of valuable information. Personally, I have OOP subject in my university and we have already done some UML diagrams, but I wish that I had watched this course before getting them done with OOA and so on. 
+About Software Architecture course, It is a really long course and I believe that It could be much shorter, but it contains a lot of valuable information. For example, I have OOP subject in my university and we have already done some UML diagrams, but I wish that I had watched this course before getting them done with OOA and so on.
