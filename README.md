@@ -37,6 +37,8 @@ The data segment, on the other hand, holds the contents for static variables ini
 
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/task_networks/networks.PNG" width="500px" />
 
+<a href="https://github.com/kottans/nodejs-2019-homeworks/pull/2">PR for Port Sniffer</a>
+
 ## HTTP & HTTPS
 
 ```bash
