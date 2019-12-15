@@ -95,3 +95,7 @@ Check PR <a href="https://github.com/kottans/nodejs-2019-homeworks/pull/34">here
 ## File System
 
 <img src="https://github.com/Zakkarat/kottans-backend/blob/master/file_system/screen.png" />
+
+## Runtime and Ecosystem
+
+Materials given for this topic are giving basic understanding of how engines work. As for me I revised one more time event loop thing and also understood some parts of Node JS compiling into Machine code.
